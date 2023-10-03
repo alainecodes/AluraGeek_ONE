@@ -1,5 +1,5 @@
 export function fetchProdutos() {
-    return fetch('../db.json')
+    return fetch('https://run.mocky.io/v3/f5d731bc-78a2-4c70-9643-988057eb46cc')
         .then(response => response.json())
         .then(produtos => {
             localStorage.setItem('produtos', JSON.stringify(produtos));
