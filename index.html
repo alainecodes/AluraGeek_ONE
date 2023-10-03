@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <link type="image/png" sizes="16x16" rel="icon" href="./assets/geek.png">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__container">
+            <div class="cabecalho__div">
+                <a class="cabecalho__logo" href="./index.html"><img src="./assets/logo-alurageek.png"
+                    alt="Logo AluraGeek"></a>
+                    <input class="pesquisa" type="search" name="" id="barra-pesquisa" placeholder="O que deseja encontrar?">
+                </div>
+            <a href="./pages/login.html">
+                <button class="botao-login">Login</button>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="banner">
+                <div class="banner__container">
+                    <h1 class="banner__container-titulo">Dezembro Promocional</h1>
+                    <h2 class="banner__container-subtitulo">Produtos selecionados com 33% de desconto</h2>
+                    <a href="#consoles"><button class="banner__botao">Ver Consoles</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria" id="StarWars" data-galeria>
+            <div class="galeria__menu">
+                <h3 class="galeria__menu-titulo">Star Wars</h3>
+                <a class="galeria__menu-link" href="./pages/login.html">Ver tudo <img src="./assets/seta.png"> </a>
+            </div>
+            <div class="galeria__produtos">
+                <ul class="galeria__produtos-lista" data-lista>
+                    <!-- <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/star-wars/caneca.jpg">
+                            <p class="galeria__produtos-item-titulo">Produto XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="./pages/produto.html">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/star-wars/vader.jpg">
+                            <p class="galeria__produtos-item-titulo">Produto XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/star-wars/yoda.jpg">
+                            <p class="galeria__produtos-item-titulo">Produto XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/star-wars/stormtrooper.jpg">
+                            <p class="galeria__produtos-item-titulo">Produto XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/star-wars/baby-yoda.jpg">
+                            <p class="galeria__produtos-item-titulo">Produto XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/star-wars/kylo-ren.jpg">
+                            <p class="galeria__produtos-item-titulo">Produto XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="galeria" id="Consoles" data-galeria>
+            <div class="galeria__menu">
+                <h3 class="galeria__menu-titulo" id="consoles">Consoles</h3>
+                <a class="galeria__menu-link" href="./pages/login.html">Ver tudo <img src="./assets/seta.png"> </a>
+            </div>
+            <div class="galeria__produtos">
+                <ul class="galeria__produtos-lista" id="Consoles" data-lista>
+                    <!-- <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/consoles/joystick-xbox.jpg">
+                            <p class="galeria__produtos-item-titulo">Controle XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/consoles/ps5.jpg">
+                            <p class="galeria__produtos-item-titulo">Controle e console XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/consoles/nintendo-nes.jpg">
+                            <p class="galeria__produtos-item-titulo">Console XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/consoles/nintendo-switch.jpg">
+                            <p class="galeria__produtos-item-titulo">Controle XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/consoles/xbox-x.jpg">
+                            <p class="galeria__produtos-item-titulo">Console XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/consoles/gameboy.jpg">
+                            <p class="galeria__produtos-item-titulo">Game Boy Color</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="galeria" id="Diversos" data-galeria>
+            <div class="galeria__menu">
+                <h3 class="galeria__menu-titulo">Diversos</h3>
+                <a class="galeria__menu-link" href="./pages/login.html">Ver tudo <img src="./assets/seta.png"> </a>
+            </div>
+            <div class="galeria__produtos">
+                <ul class="galeria__produtos-lista" data-lista>
+                    <!-- <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/diversos/camisa-atari.jpg">
+                            <p class="galeria__produtos-item-titulo">Camisa Atari</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/diversos/camisa-snes.jpg">
+                            <p class="galeria__produtos-item-titulo">Camisa SNES</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/diversos/sonic.jpg">
+                            <p class="galeria__produtos-item-titulo">Controle e console XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/diversos/radio.jpg">
+                            <p class="galeria__produtos-item-titulo">Controle e console XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/diversos/ra.jpg">
+                            <p class="galeria__produtos-item-titulo">Controle e console XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li>
+                    <li class="galeria__produtos-item">
+                        <div class="galeria__produtos-item-box">
+                            <img src="./assets/produtos/diversos/pikachu.jpg">
+                            <p class="galeria__produtos-item-titulo">Controle e console XYZ</p>
+                            <p class="galeria__produtos-item-preco">R$ 60,00</p>
+                            <a class="galeria__produtos-item-link" href="#">Ver produto</a>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <div class="rodape__container">
+            <section class="rodape__conteudo">
+                <a href="index.html"><img src="./assets/logo-alurageek.png" alt="Logo AluraGeek"
+                        class="rodape__logo"></a>
+                <nav class="rodape__links">
+                    <ul>
+                        <a href="#">
+                            <li>Quem somos nós</li>
+                        </a>
+                        <a href="#">
+                            <li>Política de Privacidade</li>
+                        </a>
+                        <a href="#">
+                            <li>Programa de fidelidade</li>
+                        </a>
+                        <a href="#">
+                            <li>Nossas lojas</li>
+                        </a>
+                        <a href="#">
+                            <li>Quero ser franqueado</li>
+                        </a>
+                        <a href="#">
+                            <li>Anuncie aqui</li>
+                        </a>
+                    </ul>
+                </nav>
+                <section class="rodape__contato">
+                    <h3>Fale conosco</h3>
+                    <form action="">
+                        <input type="text" name="nome" placeholder="Nome" maxlength="40" required>
+                        <textarea name="mensagem" placeholder="Escreva sua mensagem" maxlength="120" required></textarea>
+                        <button type="submit">Enviar mensagem</button>
+                    </form>
+                </section>
+            </section>
+
+        </div>
+        <a href="https://github.com/alainecodes" target="_blank">
+            <span class="rodape__autor">Desenvolvido por <strong>Alaine Sant'Anna</strong></span>
+        </a>
+    </footer>
+    
+    <script src="./js/main.js" type="module" ></script>
+
+</body>
+
+</html>
