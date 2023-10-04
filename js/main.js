@@ -1,5 +1,5 @@
 export function fetchProdutos() {
-    return fetch('/db.json')
+    return fetch('https://651c74f3e904fefd4c086e43.mockapi.io/produtos')
         .then(response => response.json())
         .then(produtos => {
             let categorias = produtos.reduce((acc, produto) => {
